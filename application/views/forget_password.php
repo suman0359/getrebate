@@ -70,7 +70,7 @@
                                  <li><a href="#">Another action</a></li>
                                  <li><a href="#">Something else here</a></li>
                                  <li class="divider"></li>
-                                 <li><a href="<?php echo base_url(); ?>login">login</a></li>
+                                 <li><a href="login.html">login</a></li>
                              </ul>
                          </li>
                      </ul>
@@ -121,21 +121,10 @@
       </label>
       <input class="form-control" id="email" name="email" type="text"/>
      </div>
-     <div class="form-group ">
-      <label class="control-label " for="number">
-      Password
-      </label>
-      <input class="form-control" id="password" name="password" valu="password" type="text"/>
-     </div>
+     
      <div class="form-group">
       <div>
-      <div class="checkbox">
-            <label>
-                <input type="checkbox">
-                Remember Me
-            </label>
-           <a href="<?php echo base_url(); ?>login/forget_password" class="forgot-pass pull-right">Forgot Password</a>
-        </div>
+      
        <button class="btn btn-primary " name="submit" type="submit">
         Submit
        </button>

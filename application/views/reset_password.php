@@ -113,29 +113,20 @@
    <div class="login-holder">
     <form method="post">
      <div class="form-group ">
-      <label class="control-label requiredField" for="email">
-       Email
-       <span class="asteriskField">
-        *
-       </span>
+      <label class="control-label " for="number">
+      New Password
       </label>
-      <input class="form-control" id="email" name="email" type="text"/>
+      <input class="form-control" id="password" name="password" valu="password" type="text"/>
      </div>
      <div class="form-group ">
       <label class="control-label " for="number">
-      Password
+      Re-Type Password
       </label>
       <input class="form-control" id="password" name="password" valu="password" type="text"/>
      </div>
      <div class="form-group">
       <div>
-      <div class="checkbox">
-            <label>
-                <input type="checkbox">
-                Remember Me
-            </label>
-           <a href="<?php echo base_url(); ?>login/forget_password" class="forgot-pass pull-right">Forgot Password</a>
-        </div>
+      
        <button class="btn btn-primary " name="submit" type="submit">
         Submit
        </button>

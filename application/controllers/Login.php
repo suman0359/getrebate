@@ -28,4 +28,12 @@ class Login extends CI_Controller {
 		$data['main_content'] = $this->load->view('register', '', TRUE);
 		$this->load->view('master', $data);
 	}
+
+	public function forget_password(){
+		$this->load->view('forget_password');
+	}
+
+	public function reset_password(){
+		$this->load->view('reset_password');
+	}
 }
