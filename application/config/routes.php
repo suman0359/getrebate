@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['register'] = 'login/registration';
+$route['login_check'] = 'auth/check_login';
+// $route['(:any)'] = 'auth/$1';

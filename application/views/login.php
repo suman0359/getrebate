@@ -111,7 +111,10 @@
  <div class="container-fluid">
   <div class="row">
    <div class="login-holder">
-    <form method="post">
+   <div class="form-group">
+       <label>44444</label>
+   </div>
+    <form action="<?php echo base_url(); ?>auth/check_login" method="POST">
      <div class="form-group ">
       <label class="control-label requiredField" for="email">
        Email

@@ -58,7 +58,7 @@ $autoload['packages'] = array(APPPATH.'third_party', '/usr/local/shared');
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('email', 'session');
+$autoload['libraries'] = array('database', 'email', 'session');
 
 /*
 | -------------------------------------------------------------------
