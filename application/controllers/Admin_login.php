@@ -23,3 +23,5 @@ class Admin_login extends CI_Controller {
 		//$data['main_content'] = $this->load->view('main_content', '', TRUE);
 		$this->load->view('login');
 	}
+
+}

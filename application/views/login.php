@@ -112,7 +112,12 @@
   <div class="row">
    <div class="login-holder">
    <div class="form-group">
-       <label>44444</label>
+       <?php 
+       $message=$this->session->userdata('error');
+        if ($message) { ?>
+           <label><?php echo $message; ?></label>
+     <?php } $this->session->unset_userdata('message'); ?>
+       
    </div>
     <form action="<?php echo base_url(); ?>auth/check_login" method="POST">
      <div class="form-group ">

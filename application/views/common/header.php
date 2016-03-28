@@ -68,6 +68,7 @@
                                  <li><a href="#">Something else here</a></li>
                                  <li class="divider"></li>
                                  <li><a href="<?php echo base_url(); ?>login">loginn</a></li>
+                                 <li><a href="<?php echo base_url(); ?>login/logout">Logout</a></li>
                              </ul>
                          </li>
                      </ul>
